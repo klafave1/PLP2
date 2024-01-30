@@ -1,7 +1,6 @@
 ## PLP2 (Swift)
 
-### 1. What are the naming requirements for variables in your language?
-#### a. What about naming conventions? Are they enforced by the compiler/interpreter, or are they just standards in the community?
+### 1. What are the naming requirements for variables in your language? a. What about naming conventions? Are they enforced by the compiler/interpreter, or are they just standards in the community?
 
 ##### Naming Requirements:
 ###### * Variables must start with either a letter or an underscore, which can then be followed by other letters, underscores, and digits. 
