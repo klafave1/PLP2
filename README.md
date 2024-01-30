@@ -64,5 +64,5 @@
               var optionalInteger: Optional<Int>
 * Any:
 *             Example:
-*             var mixed: [Any] = ["one", 2, true, (4, 5.3), { () -> Int in return 6 }]
+              var mixed: [Any] = ["one", 2, true, (4, 5.3), { () -> Int in return 6 }]
 ##### These are some of the commonly used data types in Swift, but there are many others - including: Self, Metatype, Opaque, etc.
