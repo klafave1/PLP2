@@ -50,5 +50,10 @@
 * Array:
 *             Example:
               var someArray: Array<String> = ["Alex", "Brian", "Dave"]
+              OR
               var someArray: [String] = ["Alex", "Brian", "Dave"]
-              
+* Dictionary:
+*             Example:
+              var someDictionary: [String: Int] = ["Alex": 31, "Paul": 39]
+              OR
+              var someDictionary: Dictionary<String, Int> = ["Alex": 31, "Paul": 39]
