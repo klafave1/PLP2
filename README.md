@@ -44,3 +44,11 @@
             tuple-type-element-list → tuple-type-element | tuple-type-element , tuple-type-element-list
             tuple-type-element → element-name type-annotation | type
             element-name → identifier
+* Function:
+*             Grammar:
+              (<#parameter type#>) -> <#return type#>
+* Array:
+*             Example:
+              var someArray: Array<String> = ["Alex", "Brian", "Dave"]
+              var someArray: [String] = ["Alex", "Brian", "Dave"]
+              
