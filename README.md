@@ -23,3 +23,10 @@
 ##### Swift will not compile because 1. the variable isn't initialized with "var" and 2. because it is strongly typed, you cannot attempt to use a binary operand (+) to add a string and an int together. To fix it, we must make the numbers the same variable type. 
 * Option 1: var x = "5" + String(6) OR var x = "5" + "6" - However, this will only make both numbers strings and place them together, so the output is "56", but it will still run.
 * Option 2: var x = 5 + 6 OR var x = Int(5) + Int(6) - This will give the correct answer of 11.
+
+### 5. Describe the limitations (or lack thereof) of your programming language as they relate to the coding portion of the assignment (adding ints and floats, storing different types in lists, converting between data types). Are there other restrictions or pitfalls that the documentation mentions that you need to be aware of? 
+* Adding ints and floats in Swift has no limitations
+* As long as you create a list with type "Any", you can store whatever you want in that list (e.g., var test: [Any] = [1, "Cat", 2.5])
+* Swift provides built-in mechanisms for converting between different data types, such as using initializers or typecasting. For example, you can convert a Double to an Int by initializing an Int with the Double value, like "var intValue = Int(doubleValue)".
+* Some other more complex pitfalls include optional unwrapping, memory management in reference types, handling of optionals, and dealing with implicitly unwrapped optionals.
+*     Unwrapping optionals incorrectly can lead to runtime errors.
