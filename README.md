@@ -38,7 +38,7 @@
           someTuple = (9, 99)
           someTuple = (left: 5, right: 5)
 
-      tuple-type → ( ) | ( tuple-type-element , tuple-type-element-list )
+          tuple-type → ( ) | ( tuple-type-element , tuple-type-element-list )
           tuple-type-element-list → tuple-type-element | tuple-type-element , tuple-type-element-list
           tuple-type-element → element-name type-annotation | type
           element-name → identifier
