@@ -31,7 +31,7 @@
 * Some other more complex pitfalls include optional unwrapping, memory management in reference types, handling of optionals, and dealing with implicitly unwrapped optionals. Unwrapping optionals incorrectly can lead to runtime errors. Swift also may unnecessarily force unwrapping optionals when optional binding or optional chaining could be used instead. 
 
 ### 6. Are there built-in complex data types that are commonly used in your language?
-##### There are built-in data types in Swift:
+##### Along with String, Int, Float - there are built-in data types in Swift:
 * Tuple:
 *           Example:
             var someTuple = (top: 10, bottom: 12)
