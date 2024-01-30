@@ -1,7 +1,5 @@
 import UIKit
 
-import UIKit
-
 // int
 var integerVal: Int = 10
 
