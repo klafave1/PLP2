@@ -57,3 +57,12 @@
               var someDictionary: [String: Int] = ["Alex": 31, "Paul": 39]
               OR
               var someDictionary: Dictionary<String, Int> = ["Alex": 31, "Paul": 39]
+* Optional:
+*             Example:
+              var optionalInteger: Int?
+              OR
+              var optionalInteger: Optional<Int>
+* Any:
+*             Example:
+*             var mixed: [Any] = ["one", 2, true, (4, 5.3), { () -> Int in return 6 }]
+##### These are some of the commonly used data types in Swift, but there are many others - including: Self, Metatype, Opaque, etc.
