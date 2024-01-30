@@ -29,4 +29,4 @@
 * As long as you create a list with type "Any", you can store whatever you want in that list (e.g., var test: [Any] = [1, "Cat", 2.5])
 * Swift provides built-in mechanisms for converting between different data types, such as using initializers or typecasting. For example, you can convert a Double to an Int by initializing an Int with the Double value, like "var intValue = Int(doubleValue)".
 * Some other more complex pitfalls include optional unwrapping, memory management in reference types, handling of optionals, and dealing with implicitly unwrapped optionals.
-*   Unwrapping optionals incorrectly can lead to runtime errors.
+* ###### Unwrapping optionals incorrectly can lead to runtime errors.
