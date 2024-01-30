@@ -32,8 +32,8 @@
 
 ### 6. Are there built-in complex data types that are commonly used in your language?
 ##### There are built-in data types in Swift:
-* "Tuple" type grammar and example:
-*         var someTuple = (top: 10, bottom: 12)
+* Tuple:
+*           var someTuple = (top: 10, bottom: 12)
           someTuple = (top: 4, bottom: 42)
           someTuple = (9, 99)
           someTuple = (left: 5, right: 5)
