@@ -6,6 +6,7 @@
 ###### * Variables must start with either a letter or an underscore, which can then be followed by other letters, underscores, and digits. 
 ###### * Swift is case-sensitive, so "myName" and "MyName" are different names. 
 ###### * Variable names cannot include whitespace characters, math symbols, or arrows.
+
 ###### Naming Conventions: 
 ###### * Swift follows camelCase convention for naming variables. 
 ###### * For constants and variables, camel case is used with a lowercase letter first (for example, "myName").
