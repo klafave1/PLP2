@@ -28,5 +28,12 @@
 * Adding ints and floats in Swift has no limitations
 * As long as you create a list with type "Any", you can store whatever you want in that list (e.g., var test: [Any] = [1, "Cat", 2.5])
 * Swift provides built-in mechanisms for converting between different data types, such as using initializers or typecasting. For example, you can convert a Double to an Int by initializing an Int with the Double value, like "var intValue = Int(doubleValue)".
-* Some other more complex pitfalls include optional unwrapping, memory management in reference types, handling of optionals, and dealing with implicitly unwrapped optionals.
-    Unwrapping optionals incorrectly can lead to runtime errors.
+* Some other more complex pitfalls include optional unwrapping, memory management in reference types, handling of optionals, and dealing with implicitly unwrapped optionals. Unwrapping optionals incorrectly can lead to runtime errors. Swift also may unnecessarily force unwrapping optionals when optional binding or optional chaining could be used instead. 
+
+### 6. Are there built-in complex data types that are commonly used in your language?
+##### There are built-in data types in Swift:
+* Tuple type:
+*         var someTuple = (top: 10, bottom: 12)
+someTuple = (top: 4, bottom: 42) 
+someTuple = (9, 99)
+someTuple = (left: 5, right: 5)
