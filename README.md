@@ -66,3 +66,10 @@
 *             Example:
               var mixed: [Any] = ["one", 2, true, (4, 5.3), { () -> Int in return 6 }]
 ##### These are some of the commonly used data types in Swift, but there are many others - including: Self, Metatype, Opaque, etc.
+
+### Resources:
+* https://www.swift.org/documentation/api-design-guidelines/#fundamentals
+* https://google.github.io/swift/#error-types
+* https://docs.swift.org/swift-book/documentation/the-swift-programming-language/lexicalstructure/
+* https://docs.swift.org/swift-book/documentation/the-swift-programming-language/thebasics/
+* https://docs.swift.org/swift-book/documentation/the-swift-programming-language/types/
